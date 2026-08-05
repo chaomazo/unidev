@@ -4,6 +4,7 @@
   <p>The open-source web fetching & content extraction API.</p>
 
   <p>
+    <a href="https://sparkfetch.site"><img src="https://img.shields.io/badge/website-sparkfetch.site-FFB800?style=flat-square&logo=globe" alt="Website"></a>
     <a href="https://github.com/Sparkfetch/sparkfetch/stargazers"><img src="https://img.shields.io/github/stars/Sparkfetch/sparkfetch?style=flat-square&logo=github&color=FFB800" alt="Stars"></a>
     <a href="https://github.com/Sparkfetch/sparkfetch/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="License"></a>
     <a href="https://github.com/Sparkfetch/sparkfetch/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/Sparkfetch/sparkfetch/ci.yml?style=flat-square&label=CI" alt="CI"></a>
