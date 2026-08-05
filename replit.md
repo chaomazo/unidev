@@ -1,6 +1,6 @@
-# [Project name]
+# SparkFetch
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+Turn any URL into clean, structured, LLM-ready content. The open-source web fetching & extraction API.
 
 ## Run & Operate
 
@@ -22,24 +22,36 @@ _Replace the heading above with the project's name, and this line with one sente
 
 ## Where things live
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- `artifacts/api-server/src/routes/v1/` — versioned API route handlers (scrape, crawl, map)
+- `artifacts/api-server/src/lib/` — core utilities: fetcher.ts, extractor.ts, crawl-store.ts
+- `lib/api-spec/openapi.yaml` — OpenAPI 3.1 spec (source of truth for all API contracts)
+- `lib/api-zod/src/generated/` — generated Zod schemas (do not edit manually)
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- Contract-first API design: OpenAPI spec is written before route implementation
+- HTML-to-Markdown extraction is done with a zero-dependency custom parser (no cheerio) to minimize bundle size
+- Crawl jobs are async fire-and-forget backed by in-memory store (upgrade to Redis for production scale)
+- All fetch operations use native Node.js `fetch` with AbortController for timeout control
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+SparkFetch provides three core API operations:
+- **Scrape** (`POST /api/v1/scrape`) — Fetch a URL, extract clean Markdown + metadata
+- **Crawl** (`POST /api/v1/crawl`) — Recursively crawl a site; poll for results
+- **Map** (`POST /api/v1/map`) — Discover all URLs on a domain
 
 ## User preferences
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
+- Repository lives at https://github.com/Sparkfetch/sparkfetch
+- No Replit branding in public-facing files
 
 ## Gotchas
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
+- Do not run `pnpm dev` at workspace root — use workflow or `pnpm --filter @workspace/api-server run dev`
+- Crawl jobs are in-memory only; they are lost on server restart
 
 ## Pointers
 
 - See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and package details
+- GitHub repo: https://github.com/Sparkfetch/sparkfetch
