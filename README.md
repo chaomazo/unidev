@@ -745,6 +745,28 @@ make test
 
 ---
 
+## Repository structure
+
+ScenePilot is organized as a portable, file-based production system:
+
+- scenepilot/ — Python package and command-line tools.
+- pipeline_defs/ — pipeline manifests for production workflows.
+- skills/ — agent operating guidance and production knowledge.
+- tools/ — focused media and production tools.
+- productions/ — project inputs, plans, receipts, and rendered outputs.
+- docs/ARCHITECTURE.md — architecture principles and extension points.
+
+### Quick start
+
+Install the package and create a workspace:
+
+    python -m pip install -e .
+    scenepilot init demo
+    cd demo
+    scenepilot doctor
+
+Run the test suite with python -m pytest.
+
 ## License
 
 GNU AGPLv3
