@@ -1,1 +1,0 @@
-- [SparkFetch GitHub repo](sparkfetch-github.md) — repo at https://github.com/Sparkfetch/sparkfetch, git remote configured with GITHUB_TOKEN, pushed to main.
