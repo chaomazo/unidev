@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scenepilot"
+version = "0.1.0"
+description = "Open-source, agentic video production system"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "GNU AGPLv3" }
+authors = [{ name = "ScenePilot contributors" }]
+dependencies = []
+
+[project.scripts]
+scenepilot = "scenepilot.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
