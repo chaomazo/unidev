@@ -1,18 +1,9 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/monty-dark.svg">
-    <img src="assets/monty-light.svg" alt="Monty the Clapper — the official mascot of OpenMontage" width="200">
-  </picture>
-</p>
+<h1 align="center">ScenePilot</h1>
 
-<p align="center"><sub><em>Monty the Clapper — the official mascot of OpenMontage</em></sub></p>
-
-<h1 align="center">OpenMontage</h1>
-
-<p align="center"><strong>The first open-source, agentic video production system.</strong></p>
+<p align="center"><strong>World's first open-source, agentic video production system.</strong></p>
 
 <p align="center">
-  <a href="https://openmontage.video"><img src="https://img.shields.io/badge/Website-openmontage.video-d14a28?style=for-the-badge" alt="openmontage.video"></a>
+  <a href="https://www.scenepilot.pw"><img src="https://img.shields.io/badge/Website-www.scenepilot.pw-d14a28?style=for-the-badge" alt="www.scenepilot.pw"></a>
 </p>
 
 <p align="center">
@@ -31,37 +22,26 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPLv3-blue.svg" alt="License"></a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/trending">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset=".github/assets/repo-of-the-day-dark.svg">
-      <img alt="🏆 #1 Repository of the Day on GitHub Trending" src=".github/assets/repo-of-the-day-light.svg" height="60">
-    </picture>
-  </a>
-</p>
-
 <p align="center"><strong>Follow The Build</strong></p>
 
 <p align="center">
-  <a href="https://www.youtube.com/@OpenMontage"><img src="https://img.shields.io/badge/YouTube-%40OpenMontage-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"></a>
-  <a href="https://x.com/calesthioailabs"><img src="https://img.shields.io/badge/X-%40calesthioailabs-111111?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
-  <a href="https://github.com/calesthio/OpenMontage/discussions"><img src="https://img.shields.io/badge/Community-GitHub%20Discussions-0b1220?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Discussions"></a>
+  <a href="https://github.com/calesthio/ScenePilot/discussions"><img src="https://img.shields.io/badge/Community-GitHub%20Discussions-0b1220?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Discussions"></a>
 </p>
 
 ## Sponsors
 
-> Want to support OpenMontage? [Sponsor the project](https://github.com/sponsors/calesthio).
+> Want to support ScenePilot? [Sponsor the project](https://github.com/scenepilotLLM/scenepilot).
 
 <details open>
 <summary>Click to collapse</summary>
 
 <table>
 <tr>
-<td width="180" align="center"><a href="https://bloome.im/app?ref=calesthio&utm_medium=github&utm_source=calesthio-OpenMontage-ivor-202607"><img src="assets/sponsors/bloome.png" alt="Bloome" width="150"></a></td>
-<td><strong>Bloome</strong> lets multiple AI agents (Claude, ChatGPT, DeepSeek, and more) collaborate in one conversation for agentic video pipelines. It has zero setup, runs in the cloud, works on web and mobile, and lets you share a configured agent with your whole team. <strong><a href="https://bloome.im/app?ref=calesthio&utm_medium=github&utm_source=calesthio-OpenMontage-ivor-202607">Try Bloome</a></strong>.</td>
+<td width="180" align="center"><a href="https://bloome.im/app?ref=calesthio&utm_medium=github&utm_source=calesthio-ScenePilot-ivor-202607"></a></td>
+<td><strong>Bloome</strong> lets multiple AI agents (Claude, ChatGPT, DeepSeek, and more) collaborate in one conversation for agentic video pipelines. It has zero setup, runs in the cloud, works on web and mobile, and lets you share a configured agent with your whole team. <strong><a href="https://bloome.im/app?ref=calesthio&utm_medium=github&utm_source=calesthio-ScenePilot-ivor-202607">Try Bloome</a></strong>.</td>
 </tr>
 <tr>
-<td width="180" align="center"><a href="https://www.atlascloud.ai/coding-plan"><img src="assets/sponsors/atlas-cloud.png" alt="Atlas Cloud" width="150"></a></td>
+<td width="180" align="center"><a href="https://www.atlascloud.ai/coding-plan"></a></td>
 <td><strong>Atlas Cloud</strong> is a full-modal AI inference platform that gives developers a single AI API for video generation, image generation, and LLM APIs. Instead of managing multiple vendor integrations, you connect once and get unified access to 300+ curated models across all modalities. Check out Atlas Cloud's new <a href="https://www.atlascloud.ai/coding-plan">coding plan</a> promotion for more budget-friendly API access.</td>
 </tr>
 </table>
@@ -72,13 +52,13 @@
 
 Turn your AI coding assistant into a full video production studio. Describe what you want in plain language — your agent handles research, scripting, asset generation, editing, and final composition.
 
-**Important distinction:** OpenMontage can make image-based videos, but it can also make a real **video video** for free/open-source workflows: the agent builds a corpus from free stock footage and open archives, retrieves actual motion clips, edits them into a timeline, and renders a finished piece. That is not the usual "animate a handful of stills and call it video" trick.
+**Important distinction:** ScenePilot can make image-based videos, but it can also make a real **video video** for free/open-source workflows: the agent builds a corpus from free stock footage and open archives, retrieves actual motion clips, edits them into a timeline, and renders a finished piece. That is not the usual "animate a handful of stills and call it video" trick.
 
 <div align="center">
   <video src="https://github.com/user-attachments/assets/f77ce7a4-68b8-4f94-a287-e94bf50a32e1" width="100%" controls></video>
 </div>
 
-> **"SIGNAL FROM TOMORROW"** — a cinematic sci-fi trailer fully produced through OpenMontage: concept, script, scene plan, Veo-generated motion clips, soundtrack, and Remotion composition.
+> **"SIGNAL FROM TOMORROW"** — a cinematic sci-fi trailer fully produced through ScenePilot: concept, script, scene plan, Veo-generated motion clips, soundtrack, and Remotion composition.
 
 <div align="center">
   <video src="https://github.com/user-attachments/assets/8daca07f-cdf8-4bec-89c3-9dc2176363fa" width="100%" controls></video>
@@ -102,7 +82,7 @@ Turn your AI coding assistant into a full video production studio. Describe what
   <video src="https://github.com/user-attachments/assets/6815c2d2-17a3-4057-b9a0-893fc9c05bef" width="100%" controls></video>
 </div>
 
-> **"Imagine the Possibilities with OpenMontage"** — seven generated worlds collected into one music-only showcase. Three image models supply campaign, fashion, and miniature-world artwork; four video models expand the journey through architecture, material transformation, a living greenhouse, and a creature encounter. OpenMontage animates the stills, edits the motion, unifies the soundtrack, and closes with Monty the Clapper. Source generation cost: **about $5**.
+> **"Imagine the Possibilities with ScenePilot"** — seven generated worlds collected into one music-only showcase. Three image models supply campaign, fashion, and miniature-world artwork; four video models expand the journey through architecture, material transformation, a living greenhouse, and a creature encounter. ScenePilot animates the stills, edits the motion, unifies the soundtrack, and closes with Monty the Clapper. Source generation cost: **about $5**.
 
 <div align="center">
   <video src="https://github.com/user-attachments/assets/a524f02a-2d18-42ca-a2c4-d3dc09503546" width="100%" controls></video>
@@ -117,7 +97,7 @@ Turn your AI coding assistant into a full video production studio. Describe what
 > **"One Prompt Built This Complete 3D World"** — a continuous 60-second journey through one coherent, editable fantasy world. Distinct terrain regions, an inhabited village, waterways, ruins, dense vegetation, and a late hero-landmark reveal are assembled from textured 3D assets, then brought together with cinematic lighting, atmospheric music, and a planned camera path.
 
 <p align="center">
-  <a href="https://www.youtube.com/@OpenMontage?sub_confirmation=1"><strong>Subscribe to @OpenMontage on YouTube</strong></a> to see new videos as they ship — every video includes the full prompt, pipeline, tools used, and cost so you can reproduce it yourself.
+  <a href="https://www.youtube.com/@ScenePilot?sub_confirmation=1"><strong>Subscribe to @ScenePilot on YouTube</strong></a> to see new videos as they ship — every video includes the full prompt, pipeline, tools used, and cost so you can reproduce it yourself.
 </p>
 
 ---
@@ -126,7 +106,7 @@ Turn your AI coding assistant into a full video production studio. Describe what
 
 Starting from a reference video is often faster than starting from a blank prompt.
 
-OpenMontage can start from a **YouTube video, Short, Reel, TikTok, or local clip** and turn it into a grounded production plan:
+ScenePilot can start from a **YouTube video, Short, Reel, TikTok, or local clip** and turn it into a grounded production plan:
 
 1. **Paste a reference video**
 2. **The agent analyzes transcript, pacing, scenes, keyframes, and style**
@@ -189,8 +169,8 @@ And when a run is done, hit **▶ REPLAY RUN** — the whole production replays 
 ### Install & Run
 
 ```bash
-git clone https://github.com/calesthio/OpenMontage.git
-cd OpenMontage
+git clone https://github.com/calesthio/ScenePilot.git
+cd ScenePilot
 make setup
 ```
 
@@ -221,7 +201,7 @@ This repo is built for agentic operation. If you're an OpenClaw-style agent, her
 1. **Read the contract first**
    Start with [`AGENT_GUIDE.md`](AGENT_GUIDE.md), then [`PROJECT_CONTEXT.md`](PROJECT_CONTEXT.md).
 2. **Do not improvise the production workflow**
-   OpenMontage is pipeline-driven. Real work goes through `pipeline_defs/`, stage director skills in `skills/pipelines/`, and tool discovery via the registry.
+   ScenePilot is pipeline-driven. Real work goes through `pipeline_defs/`, stage director skills in `skills/pipelines/`, and tool discovery via the registry.
 3. **Check the actual capability envelope**
    Run:
    ```bash
@@ -293,7 +273,7 @@ You don't need paid API keys to make real videos. Out of the box, `make setup` g
 | **Post-production** | FFmpeg | Encoding, subtitle burn-in, audio mixing, color grading |
 | **Subtitles** | Built-in | Auto-generated captions with word-level timing |
 
-OpenMontage picks between Remotion and HyperFrames at proposal time (locked as `render_runtime`). Remotion is the default for data-driven explainers and anything using the existing React scene stack; HyperFrames is the default for motion-graphics-heavy briefs that express naturally as HTML + GSAP, including the `character-animation` pipeline's SVG/GSAP rig output. See `skills/core/hyperframes.md` for the full decision matrix.
+ScenePilot picks between Remotion and HyperFrames at proposal time (locked as `render_runtime`). Remotion is the default for data-driven explainers and anything using the existing React scene stack; HyperFrames is the default for motion-graphics-heavy briefs that express naturally as HTML + GSAP, including the `character-animation` pipeline's SVG/GSAP rig output. See `skills/core/hyperframes.md` for the full decision matrix.
 
 **Two free-ish paths:**
 
@@ -383,13 +363,13 @@ Each stage has a dedicated **director skill** — a markdown instruction file th
 
 ---
 
-## Why OpenMontage?
+## Why ScenePilot?
 
-Most AI video tools give you a single clip from a prompt. OpenMontage gives you an **end-to-end production pipeline** — the same structured process a real production team follows, automated by your AI agent.
+Most AI video tools give you a single clip from a prompt. ScenePilot gives you an **end-to-end production pipeline** — the same structured process a real production team follows, automated by your AI agent.
 
-Most "free AI video" stacks quietly mean "animate still images." OpenMontage can do that too, but it can also build a finished video from **real footage** pulled from free/open sources, ranked semantically, edited intentionally, and rendered as a proper timeline.
+Most "free AI video" stacks quietly mean "animate still images." ScenePilot can do that too, but it can also build a finished video from **real footage** pulled from free/open sources, ranked semantically, edited intentionally, and rendered as a proper timeline.
 
-Edit your own talking-head footage. Generate a fully animated explainer from scratch. Cut a 2-hour podcast into a dozen social clips. Translate and dub your content into 10 languages. Build a cinematic brand teaser from stock footage and AI-generated scenes. **If a production team can make it, OpenMontage can orchestrate it.**
+Edit your own talking-head footage. Generate a fully animated explainer from scratch. Cut a 2-hour podcast into a dozen social clips. Translate and dub your content into 10 languages. Build a cinematic brand teaser from stock footage and AI-generated scenes. **If a production team can make it, ScenePilot can orchestrate it.**
 
 - **10+ production pipelines** — explainers, talking heads, screen demos, cinematic trailers, animations, podcasts, localization, documentary montages, character animation, and more
 - **100+ production tools** — spanning video generation, image creation, text-to-speech, music, audio mixing, subtitles, enhancement, and analysis
@@ -407,7 +387,7 @@ Edit your own talking-head footage. Generate a fully animated explainer from scr
 
 ## How It Works
 
-OpenMontage uses an **agent-first architecture**. There is no code orchestrator. Your AI coding assistant IS the orchestrator.
+ScenePilot uses an **agent-first architecture**. There is no code orchestrator. Your AI coding assistant IS the orchestrator.
 
 ```
 You: "Make an explainer video about how black holes form"
@@ -450,7 +430,7 @@ Final video output -- only if self-review passes
 ## Architecture
 
 ```
-OpenMontage/
+ScenePilot/
 ├── tools/              # 100+ registered production tools (the agent's hands)
 │   ├── video/          # 20+ generation providers + compose, stitch, trim
 │   ├── audio/          # 10+ speech providers + music, mixing, enhancement
@@ -478,11 +458,11 @@ OpenMontage/
 
 ```
 Layer 1: tools/ + pipeline_defs/     "What exists" — executable capabilities + orchestration
-Layer 2: skills/                     "How to use it" — OpenMontage conventions and quality bars
+Layer 2: skills/                     "How to use it" — ScenePilot conventions and quality bars
 Layer 3: .agents/skills/             "How it works" — external technology knowledge packs
 ```
 
-Each tool declares which Layer 3 skills it relies on. The agent reads Layer 1 to know what's available, Layer 2 to know how OpenMontage wants it used, and Layer 3 for deep technical knowledge when needed.
+Each tool declares which Layer 3 skills it relies on. The agent reads Layer 1 to know what's available, Layer 2 to know how ScenePilot wants it used, and Layer 3 for deep technical knowledge when needed.
 
 ---
 
@@ -651,7 +631,7 @@ Built-in render profiles for every major platform:
 
 ## Production Governance
 
-OpenMontage treats video production like real engineering — with quality gates, audit trails, and enforcement at every stage.
+ScenePilot treats video production like real engineering — with quality gates, audit trails, and enforcement at every stage.
 
 ### Quality Gates
 
@@ -688,7 +668,7 @@ No surprise bills. The agent tells you what it will cost before it spends.
 
 ## Agent Compatibility
 
-OpenMontage works with any AI coding assistant that can read files and execute Python. Dedicated instruction files are included for:
+ScenePilot works with any AI coding assistant that can read files and execute Python. Dedicated instruction files are included for:
 
 | Platform | Config File |
 |----------|------------|
@@ -706,7 +686,7 @@ All platform files point to the shared `AGENT_GUIDE.md` (operating guide and age
 
 ## Contributing
 
-OpenMontage is built to be extended. The two most common contributions:
+ScenePilot is built to be extended. The two most common contributions:
 
 ### Adding a New Tool
 
@@ -721,15 +701,15 @@ OpenMontage is built to be extended. The two most common contributions:
 2. Create stage director skills in `skills/pipelines/<your-pipeline>/`
 3. Reference existing tools — or add new ones if needed
 
-See `docs/ARCHITECTURE.md` for the full technical reference, `docs/PROVIDERS.md` for the complete provider guide (setup, pricing, free tiers), and `AGENT_GUIDE.md` for the agent contract.
+See the repository source and project documentation for the technical reference, provider setup guidance, and agent contract.
 
 ### Join the Community
 
-We use [GitHub Discussions](https://github.com/calesthio/OpenMontage/discussions) to share work and ideas:
+We use [GitHub Discussions](https://github.com/calesthio/ScenePilot/discussions) to share work and ideas:
 
-- **[Show and Tell](https://github.com/calesthio/OpenMontage/discussions/categories/show-and-tell)** — Share videos you've made, prompts that worked well, or creative workflows you've discovered
-- **[Ideas](https://github.com/calesthio/OpenMontage/discussions/categories/ideas)** — Suggest new pipelines, tools, style playbooks, or integrations
-- **[Q&A](https://github.com/calesthio/OpenMontage/discussions/categories/q-a)** — Ask questions about setup, pipelines, or troubleshooting
+- **[Show and Tell](https://github.com/calesthio/ScenePilot/discussions/categories/show-and-tell)** — Share videos you've made, prompts that worked well, or creative workflows you've discovered
+- **[Ideas](https://github.com/calesthio/ScenePilot/discussions/categories/ideas)** — Suggest new pipelines, tools, style playbooks, or integrations
+- **[Q&A](https://github.com/calesthio/ScenePilot/discussions/categories/q-a)** — Ask questions about setup, pipelines, or troubleshooting
 
 Made something cool? Post it in Show and Tell — we'd love to see what you build.
 
@@ -737,9 +717,8 @@ Made something cool? Post it in Show and Tell — we'd love to see what you buil
 
 ## Contact
 
-For updates, releases, and behind-the-scenes build notes, follow [@calesthioailabs](https://x.com/calesthioailabs).
 
-For bugs, feature requests, and workflow discussions, use [GitHub Issues](https://github.com/calesthio/OpenMontage/issues) and [GitHub Discussions](https://github.com/calesthio/OpenMontage/discussions) so everything stays visible and actionable.
+For bugs, feature requests, and workflow discussions, use [GitHub Issues](https://github.com/calesthio/ScenePilot/issues) and [GitHub Discussions](https://github.com/calesthio/ScenePilot/discussions) so everything stays visible and actionable.
 
 ---
 
@@ -757,11 +736,11 @@ make test
 
 ## Star History
 
-<a href="https://www.star-history.com/?repos=calesthio%2FOpenMontage&type=date&legend=top-left">
+<a href="https://www.star-history.com/?repos=calesthio%2FScenePilot&type=date&legend=top-left">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=calesthio/OpenMontage&type=date&theme=dark&legend=top-left" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=calesthio/OpenMontage&type=date&legend=top-left" />
-    <img alt="Star History Chart" src="https://api.star-history.com/image?repos=calesthio/OpenMontage&type=date&legend=top-left" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=calesthio/ScenePilot&type=date&theme=dark&legend=top-left" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=calesthio/ScenePilot&type=date&legend=top-left" />
+    <img alt="Star History Chart" src="https://api.star-history.com/image?repos=calesthio/ScenePilot&type=date&legend=top-left" />
   </picture>
 </a>
 
@@ -769,12 +748,12 @@ make test
 
 ## License
 
-[GNU AGPLv3](LICENSE)
+GNU AGPLv3
 
 ---
 
-**OpenMontage** — Production-grade video with real quality enforcement, orchestrated by your AI assistant.
+**ScenePilot** — World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.
 
 If this project looks useful to you, a ⭐ would really mean a lot — it helps others discover it too.
 
-If you'd like to go further, [sponsor the project](https://github.com/sponsors/calesthio) — OpenMontage is built nights and weekends, and your support makes that sustainable.
+If you'd like to go further, [sponsor the project](https://github.com/scenepilotLLM/scenepilot) — ScenePilot is built nights and weekends, and your support makes that sustainable.
