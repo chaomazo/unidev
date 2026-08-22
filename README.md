@@ -3,7 +3,7 @@
 <p align="center"><strong>World's first open-source, agentic video production system.</strong></p>
 
 <p align="center">
-  <a href="https://www.scenepilot.pw"><img src="https://img.shields.io/badge/Website-www.scenepilot.pw-d14a28?style=for-the-badge" alt="www.scenepilot.pw"></a>
+  <a href="http://www.scenepilot.pw/"><img src="https://img.shields.io/badge/Website-www.scenepilot.pw-d14a28?style=for-the-badge" alt="www.scenepilot.pw"></a>
 </p>
 
 <p align="center">
@@ -13,13 +13,13 @@
   <a href="#pipelines">Pipelines</a> &nbsp;·&nbsp;
   <a href="#how-it-works">How It Works</a> &nbsp;·&nbsp;
   <a href="#sponsors">Sponsors</a> &nbsp;·&nbsp;
-  <a href="docs/PROVIDERS.md">Providers</a> &nbsp;·&nbsp;
-  <a href="docs/PR_REVIEW_GUIDE.md">Review Guide</a> &nbsp;·&nbsp;
-  <a href="AGENT_GUIDE.md">Agent Guide</a>
+  Providers &nbsp;·&nbsp;
+  Review Guide &nbsp;·&nbsp;
+  Agent Guide
 </p>
 
 <p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPLv3-blue.svg" alt="License"></a>
+  <img src="https://img.shields.io/badge/license-AGPLv3-blue.svg" alt="License">
 </p>
 
 <p align="center"><strong>Follow The Build</strong></p>
@@ -133,19 +133,19 @@ Chat tells you what the agent *said*. **Backlot shows you what the production is
 
 When a production starts, the agent opens it for you automatically. No setup, no reporting — the board derives everything from the project files the pipeline already writes.
 
-<p align="center"><img src="docs/images/backlot/board-live.png" alt="Backlot live board — assets generating" width="920"></p>
+<p align="center"></p>
 
 **The storyboard is now a real approval gate.** Asset generation pauses on a scene-by-scene contact sheet — takes, prompts, per-asset cost, quality scores — so you approve the visuals *before* the render, not after it's too late:
 
-<p align="center"><img src="docs/images/backlot/storyboard.png" alt="Backlot storyboard — filmstrip with takes and renders" width="920"></p>
+<p align="center"></p>
 
 Creative gates hold until you answer. The board shows what's waiting and why; you reply in chat:
 
-<p align="center"><img src="docs/images/backlot/script-gate.png" alt="Backlot script gate — awaiting approval" width="920"></p>
+<p align="center"></p>
 
 Every production on your machine, live-first, in the library:
 
-<p align="center"><img src="docs/images/backlot/library.png" alt="Backlot library" width="920"></p>
+<p align="center"></p>
 
 ```bash
 python -m backlot open                  # the library — every project on disk
@@ -153,7 +153,7 @@ python -m backlot open <project-id>     # one production's live board
 python scripts/backlot_simulate_run.py  # no production yet? watch a simulated one live
 ```
 
-And when a run is done, hit **▶ REPLAY RUN** — the whole production replays from its timestamps, scrubbable end to end. See [`backlot/README.md`](backlot/README.md) for how it works.
+And when a run is done, hit **▶ REPLAY RUN** — the whole production replays from its timestamps, scrubbable end to end. See `backlot/README.md` for how it works.
 
 ---
 
@@ -199,7 +199,7 @@ That's it. The agent researches your topic with live web search, generates AI im
 This repo is built for agentic operation. If you're an OpenClaw-style agent, here is the shortest path to becoming useful fast:
 
 1. **Read the contract first**
-   Start with [`AGENT_GUIDE.md`](AGENT_GUIDE.md), then [`PROJECT_CONTEXT.md`](PROJECT_CONTEXT.md).
+   Start with `AGENT_GUIDE.md`, then `PROJECT_CONTEXT.md`.
 2. **Do not improvise the production workflow**
    ScenePilot is pipeline-driven. Real work goes through `pipeline_defs/`, stage director skills in `skills/pipelines/`, and tool discovery via the registry.
 3. **Check the actual capability envelope**
@@ -329,7 +329,7 @@ Copy any of these into your AI coding assistant after setup. Each one runs a ful
 
 > "Make a 90-second animated explainer about quantum computing for middle school students, with a fun narrator voice and custom soundtrack"
 
-Want more? See the full **[Prompt Gallery](PROMPT_GALLERY.md)** for tested prompts with expected costs and output examples, or run `make demo` to render zero-key demo videos instantly.
+Want more? See the full **Prompt Gallery** for tested prompts with expected costs and output examples, or run `make demo` to render zero-key demo videos instantly.
 
 ---
 
@@ -468,7 +468,7 @@ Each tool declares which Layer 3 skills it relies on. The agent reads Layer 1 to
 
 ## Supported Providers
 
-> **Full setup guide with pricing and free tiers:** [`docs/PROVIDERS.md`](docs/PROVIDERS.md)
+> **Full setup guide with pricing and free tiers:** `docs/PROVIDERS.md`
 
 <details>
 <summary><strong>Video Generation — 20+ providers</strong></summary>
@@ -716,7 +716,6 @@ Made something cool? Post it in Show and Tell — we'd love to see what you buil
 ---
 
 ## Contact
-
 
 For bugs, feature requests, and workflow discussions, use [GitHub Issues](https://github.com/calesthio/ScenePilot/issues) and [GitHub Discussions](https://github.com/calesthio/ScenePilot/discussions) so everything stays visible and actionable.
 
