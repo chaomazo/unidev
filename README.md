@@ -37,11 +37,11 @@ UNIDEV is a home for people who make games with motion, atmosphere, and a point 
 
 Open the local experience with any static server:
 
-\`\`\`bash
+```bash
 git clone https://github.com/chaomazo/unidev.git
 cd unidev
 python -m http.server 4173 --directory site
-\`\`\`
+```
 
 Then visit http://localhost:4173.
 
