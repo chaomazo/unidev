@@ -1,6 +1,6 @@
-# Besure architecture
+# Unidev architecture
 
-Besure is being developed as a lightweight set of creator-facing surfaces rather than a monolithic dashboard.
+Unidev is being developed as a lightweight set of creator-facing surfaces rather than a monolithic dashboard.
 
 ## Product surfaces
 
@@ -12,7 +12,7 @@ Besure is being developed as a lightweight set of creator-facing surfaces rather
 ## Current implementation
 
 - `site/` is a dependency-light static landing layer with semantic HTML, CSS, and progressive enhancement.
-- `besure/` contains the small Python workspace toolkit used to initialize and inspect local production folders.
+- `unidev/` contains the small Python workspace toolkit used to initialize and inspect local production folders.
 - `docs/` records decisions so the product can grow without losing its point of view.
 
 ## Direction
