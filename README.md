@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://unidev.xyz/"><img src="https://img.shields.io/badge/live-unidev.xyz-f4b860?style=for-the-badge&labelColor=11110f" alt="Live site"></a>
   <a href="https://github.com/chaomazo/unidev"><img src="https://img.shields.io/badge/status-building-ff7a59?style=for-the-badge&labelColor=11110f" alt="Status: building"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPLv3-8ea7ff?style=for-the-badge&labelColor=11110f" alt="License: AGPLv3"></a>
+  <a href="https://www.gnu.org/licenses/agpl-3.0.html"><img src="https://img.shields.io/badge/license-AGPLv3-8ea7ff?style=for-the-badge&labelColor=11110f" alt="License: AGPLv3"></a>
 </p>
 
 UNIDEV is a home for people who make games with motion, atmosphere, and a point of view. The platform is designed around the work that actually matters: putting a playable build in front of another human, getting useful critique, and shipping the next slice with more intention.
@@ -92,4 +92,4 @@ The best contribution is a sharper build, a more useful critique, or a small pie
 
 ## License
 
-UNIDEV is released under the GNU Affero General Public License v3.0. See [LICENSE](./LICENSE).
+UNIDEV is released under the GNU Affero General Public License v3.0. See the AGPLv3 metadata in [pyproject.toml](./pyproject.toml) and the official license text at https://www.gnu.org/licenses/agpl-3.0.html.
