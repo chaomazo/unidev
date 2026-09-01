@@ -2,7 +2,7 @@
 
 ## Our standard
 
-UNIDEV is a workshop for ambitious game makers. We keep it sharp, generous, and specific. Critique the build, not the person. Make room for different backgrounds, disciplines, engines, and levels of experience.
+Besure is a workshop for ambitious game makers. We keep it sharp, generous, and specific. Critique the build, not the person. Make room for different backgrounds, disciplines, engines, and levels of experience.
 
 Examples of behavior that help:
 
