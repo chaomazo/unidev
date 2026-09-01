@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">Besure mark</title>
+  <desc id="desc">An amber split aperture mark on a dark field.</desc>
+  <rect width="240" height="240" rx="56" fill="#11110f"/>
+  <path d="M61 61h42c10 0 18 8 18 18v30c0 10-8 18-18 18H61V61Z" fill="#f4b860"/>
+  <path d="M179 61h-42c-10 0-18 8-18 18v30c0 10 8 18 18 18h42V61Z" fill="#ff7a59"/>
+  <path d="M61 131h42c10 0 18 8 18 18v30c0 10-8 18-18 18H61v-66Z" fill="#ff7a59"/>
+  <path d="M179 131h-42c-10 0-18 8-18 18v30c0 10 8 18 18 18h42v-66Z" fill="#f4b860"/>
+  <path d="M111 61h18v136h-18z" fill="#11110f"/>
+</svg>
