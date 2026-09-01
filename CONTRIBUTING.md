@@ -1,18 +1,24 @@
-# Contributing to ScenePilot
+# Contributing to UNIDEV
 
-Thanks for helping build an open-source video production system.
+Thanks for helping build a sharper home for 3D action and adventure game makers.
 
-## Getting started
+## Start here
 
-1. Install Python 3.10 or newer.
-2. Install the package in editable mode with python -m pip install -e .
-3. Run scenepilot init demo to create a local workspace.
-4. Run python -m pytest before opening a pull request.
+1. Clone the repository and open the site with a static server:
+   python -m http.server 4173 --directory site
+2. Visit http://localhost:4173 and check the page at mobile and desktop widths.
+3. For the retained Python workspace, install Python 3.10+ dependencies and run the existing test suite with python -m pytest.
 
 ## Contribution guidelines
 
-- Keep tools focused and composable.
-- Prefer deterministic, file-based outputs.
-- Document provider requirements and costs before adding a network-backed tool.
-- Add tests for new CLI behavior and validation rules.
-- Never commit API keys, access tokens, generated media, or private production files.
+- Keep the public experience fast, accessible, responsive, and dependency-light.
+- Prefer semantic HTML and progressive enhancement over framework complexity for the landing layer.
+- Keep motion purposeful and respect prefers-reduced-motion.
+- Add project copy that is specific about the build, not generic startup language.
+- Use the palette and voice in docs/BRAND.md.
+- Add tests for changes to the legacy Python CLI.
+- Never commit API keys, access tokens, private build files, or generated media.
+
+## Pull requests
+
+Explain the creator-facing outcome in the PR description. Screenshots or a short capture are useful for visual changes. Keep each PR focused enough that a reviewer can understand the tradeoff without reconstructing the whole product.
