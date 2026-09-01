@@ -1,19 +1,36 @@
-# ScenePilot architecture
+# UNIDEV architecture
 
-ScenePilot is organized around plain files so a production remains portable, inspectable, and easy for an AI coding assistant to operate.
+This repository currently has two deliberate layers:
 
-## Core layers
+1. **The public experience** in site/, which establishes the product narrative and visual system without a framework or external runtime dependency.
+2. **The retained Python foundation** in scenepilot/, kept intact so the repository rename does not erase the earlier file-based workspace tooling while the platform layer is being built.
 
-- Pipeline definitions live in pipeline_defs/.
-- Tools live in tools/ and perform focused media operations.
-- Skills live in skills/ and provide operating guidance and quality bars.
-- Productions live in productions/ and hold project inputs, plans, receipts, and renders.
+## Product surfaces
 
-The CLI currently bootstraps this layout and checks the local media toolchain. Future pipelines should build on these stable paths rather than hiding state in a database.
+### Showcase
 
-## Design principles
+A persistent project record should hold the current build, project intent, engine and performance metadata, changelog, contributors, and review history. The page is the durable object; each build is a versioned moment inside it.
 
-1. Agent-first: the coding assistant is the orchestrator.
-2. Local and inspectable: manifests and outputs are ordinary files.
-3. Quality-gated: stages should leave receipts and fail clearly when an expected artifact is missing.
-4. Provider-neutral: integrations belong behind focused adapters, not inside pipeline logic.
+### Playtest
+
+A playtest needs a clear entry point, build version, expected session length, known issues, and a lightweight way to capture what happened. Browser builds and downloadable builds should share the same metadata contract.
+
+### Critique
+
+Reviews should capture a moment, an observation, and its context. The useful unit is not a score by itself; it is a specific signal a creator can test in the next slice.
+
+### UNICON
+
+UNICON is an exhibition mode over the same showcase and review primitives. It adds a cohort, a judging rubric, deadlines, and an archive rather than creating a separate content system.
+
+## Near-term implementation direction
+
+- Add a small typed data model for creators, projects, builds, reviews, and exhibitions.
+- Keep build metadata provider-neutral so Unreal, Unity, WebGPU, and custom engines can participate.
+- Store review context as structured fields plus a human note; never reduce critique to a single rating.
+- Keep the first publish flow fast and reversible: draft, preview, publish, revise.
+- Treat performance data and input feel as first-class showcase content.
+
+## Development principle
+
+The platform should make the next build easier to understand. Every feature must either reduce the distance between a creator and a playable build or increase the quality of the conversation around it.
