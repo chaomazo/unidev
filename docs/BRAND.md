@@ -1,10 +1,10 @@
-# UNIDEV brand system
+# Besure brand system
 
-UNIDEV should feel like a studio floor after the lights go down: focused, tactile, a little mysterious, and full of evidence that people are making something real.
+Besure should feel like a studio floor after the lights go down: focused, tactile, a little mysterious, and full of evidence that people are making something real.
 
 ## Positioning
 
-**UNIDEV is an elite community platform powering 3D action & adventure game makers.** It gives ambitious creators a persistent place to show their work, gather useful playtest feedback, and participate in UNICON exhibitions.
+**Besure is an elite community platform powering 3D action & adventure game makers.** It gives ambitious creators a persistent place to show their work, gather useful playtest feedback, and participate in UNICON exhibitions.
 
 The voice is direct, specific, and craft-aware. Avoid empty hype. Talk about the build, the input feel, the moment that breaks, and the next decision.
 
@@ -31,7 +31,7 @@ The voice is direct, specific, and craft-aware. Avoid empty hype. Talk about the
 
 ## Mark
 
-The split aperture in [assets/unidev-mark.svg](../assets/unidev-mark.svg) can read as a portal, a play button, or two creators meeting around a build. Keep the mark on a dark field with generous breathing room. Do not stretch, recolor it into a gradient, or place it inside a busy illustration.
+The split aperture in [assets/besure-mark.svg](../assets/besure-mark.svg) can read as a portal, a play button, or two creators meeting around a build. Keep the mark on a dark field with generous breathing room. Do not stretch, recolor it into a gradient, or place it inside a busy illustration.
 
 ## Writing rules
 
