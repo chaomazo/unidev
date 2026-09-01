@@ -3,17 +3,17 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "besure"
+name = "unidev"
 version = "0.1.0"
 description = "A focused toolkit for organizing playable game projects"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "GNU AGPLv3" }
-authors = [{ name = "Besure contributors" }]
+authors = [{ name = "Unidev contributors" }]
 dependencies = []
 
 [project.scripts]
-besure = "besure.cli:main"
+unidev = "unidev.cli:main"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
